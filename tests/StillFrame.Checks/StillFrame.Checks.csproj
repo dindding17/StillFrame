@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup><Compile Include="../../src/StillFrame/Models.cs" Link="Models.cs" /><Compile Include="../../src/StillFrame/ReferenceLayout.cs" Link="ReferenceLayout.cs" /><Compile Include="../../src/StillFrame/ReferenceColors.cs" Link="ReferenceColors.cs" /></ItemGroup>
+</Project>

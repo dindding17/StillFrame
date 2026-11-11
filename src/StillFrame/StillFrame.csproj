@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/StillFrame.ico</ApplicationIcon>
+    <AssemblyName>StillFrame</AssemblyName>
+    <Version>2.2.0</Version>
+    <Company>StillFrame</Company>
+    <Description>静界 · 游戏舒适辅助</Description>
+  </PropertyGroup>
+  <ItemGroup><Resource Include="Assets/StillFrame.ico"/><Resource Include="Assets/icon-16.png"/><Resource Include="Assets/icon-32.png"/><Resource Include="Assets/icon-64.png"/><Resource Include="Assets/icon-256.png"/></ItemGroup>
+</Project>
